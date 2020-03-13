@@ -34,3 +34,10 @@ Open current github repository as chrome
 pwd | git remote -v | grep fetch | awk '{print $2}' | xargs open -a '/Applications/Google Chrome.app'
 ```
 
+## Open VSCode
+
+```
+#!/bin/bash
+open -a /Applications/Visual\ Studio\ Code.app "`pwd`"
+```
+
